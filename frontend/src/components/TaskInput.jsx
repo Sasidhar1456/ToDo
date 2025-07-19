@@ -3,6 +3,7 @@ import { useState } from 'react';
 export default function TaskInput({ onAdd }) {
   const [task, setTask] = useState('');
 
+  
   const handleSubmit = () => {
     if (task.trim()) {
       onAdd(task);
