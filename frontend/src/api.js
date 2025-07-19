@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:3000/tasks';
+const BASE_URL = 'https://todo-2mrn.onrender.com/tasks';
 
 
 // get Tasks from backend
